@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Galatasaray Store Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu proje, Galatasaray Store'un bir klonunu oluşturmayı amaçlayan bir React uygulamasıdır. Bu yazılım, herhangi bir ticari amaç gütmeyen ve Galatasaray Store'un haklarına saygı gösteren bir eğitim projesidir.
 
-## Available Scripts
+## Proje Amacı
 
-In the project directory, you can run:
+Bu proje, React framework'ünü kullanarak bir e-ticaret sitesi yapma becerilerini geliştirmek için oluşturulmuştur. Galatasaray Store, bu amaç doğrultusunda bir örnek olarak seçilmiştir. Projede, temel işlevleri taklit etmek için sahte veriler kullanılmıştır.
 
-### `npm start`
+## Özellikler
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Kullanıcılar, siteye kayıt olabilir ve giriş yapabilir.
+- Ürünleri kategorilere göre filtreleyebilir ve arama yapabilir.
+- Ürünler hakkında daha fazla bilgi almak için ürün detaylarına ulaşabilirler.
+- Sepete ürün ekleyebilir ve satın alma işlemlerini gerçekleştirebilirler.
+- Kullanıcılar, hesap bilgilerini yönetebilir ve sipariş geçmişlerini görüntüleyebilirler.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Kurulum
 
-### `npm test`
+1. Bu depoyu klonlayın: `git clone https://github.com/kullaniciadi/galatasaray-store-clone.git`
+2. Proje dizinine gidin: `cd galatasaray-store-clone`
+3. Gerekli bağımlılıkları yükleyin: `npm install`
+4. Uygulamayı başlatın: `npm start`
+5. Tarayıcınızda `http://localhost:3000` adresine gidin.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Kullanım
 
-### `npm run build`
+1. Ana sayfada ürünleri görüntüleyebilirsiniz.
+2. Ürünleri filtrelemek veya arama yapmak için kullanabileceğiniz bir araç çubuğu bulunmaktadır.
+3. Ürün detaylarını görmek için bir ürünün üzerine tıklayabilirsiniz.
+4. Bir hesap oluşturarak veya mevcut bir hesapla giriş yaparak sipariş verme işlemlerini gerçekleştirebilirsiniz.
+5. Hesap sayfasında kullanıcı bilgilerinizi düzenleyebilir ve sipariş geçmişinizi görüntüleyebilirsiniz.
+6. Sepet simgesine tıklayarak sepetinizi görüntüleyebilir ve içeriğini düzenleyebilirsiniz.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Katkı
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Bu proje, sadece eğitim amaçlı olup, açık kaynak bir projedir. Herhangi bir katkıda bulunmak veya hata bildirmek isterseniz, lütfen bir pull request veya bir konu açarak projeye katkıda bulunun.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Lisans
 
-### `npm run eject`
+Bu proje
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+, Galatasaray Store'un telif hakkına tabidir. Bu nedenle, projeyi kullanırken ve dağıtırken Galatasaray Store'un kullanım koşullarını göz önünde bulundurun.
