@@ -1,0 +1,254 @@
+.footer {
+  width: 100%;
+  background-image: url(../../images/footerBg/footer-bg.webp);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% !important;
+  background-color: #000;
+  font-family: aktiv-grotesk, arial, sans-serif;
+  color: #ebebeb;
+  font-weight: 300;
+
+  margin-top: 40px;
+  .uiGradient {
+    min-height: 5px;
+    background: linear-gradient(90deg, #ffab00 50%, #a90534 50%);
+  }
+  .contanier {
+    .row {
+      flex-direction: column;
+      .footerList {
+        padding-top: 80px;
+        .footerContent {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          .leftContent {
+            width: 100%;
+            .title {
+              font-size: 20px;
+              margin-bottom: 10px;
+              line-height: 1;
+              a {
+                color: #fff;
+                border-bottom: 1px solid #fff;
+                margin-bottom: 15px;
+                pointer-events: none;
+              }
+            }
+            .navList {
+              display: flex;
+              gap: 80px;
+              padding-right: 140px;
+              .left {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                .navItem {
+                  a {
+                    font-size: 14px;
+                    color: #fff;
+                    line-height: 1;
+                    &:hover {
+                      text-decoration: underline;
+                    }
+                  }
+                }
+              }
+              .right {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                .navItem {
+                  a {
+                    font-size: 14px;
+                    color: #fff;
+                    line-height: 1;
+                    &:hover {
+                      text-decoration: underline;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .rightContent {
+            width: 100%;
+            .title {
+              font-size: 20px;
+              margin-bottom: 10px;
+              line-height: 1;
+              a {
+                color: #fff;
+                border-bottom: 1px solid #fff;
+                margin-bottom: 15px;
+                pointer-events: none;
+              }
+            }
+            .navList {
+              display: flex;
+              gap: 80px;
+              padding-right: 140px;
+              .left {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                .navItem {
+                  a {
+                    font-size: 14px;
+                    color: #fff;
+                    line-height: 1;
+                    &:hover {
+                      text-decoration: underline;
+                    }
+                  }
+                }
+              }
+              .right {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                .navItem {
+                  a {
+                    font-size: 14px;
+                    color: #fff;
+                    line-height: 1;
+                    &:hover {
+                      text-decoration: underline;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .contact {
+        width: 100%;
+        margin-top: 10%;
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #454545;
+        flex-wrap: wrap;
+        .socialMedia {
+          display: flex;
+          gap: 10px;
+          margin-top: 80px;
+          margin-bottom: 20px;
+          a {
+            .icon {
+              font-size: 40px;
+              padding: 12px;
+              border: 1px solid #585858;
+              border-radius: 100%;
+              color: #fff;
+              &:hover{
+                transition: 0.3s all ease-in-out;
+                background: #ffab00;
+                transform: scale(1.1);
+              }
+            }
+          }
+        }
+        .phoneContact {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          margin-top: 80px;
+          margin-bottom: 20px;
+          .number {
+            background-image: url(../../images/footerBg/call.webp);
+            background-repeat: no-repeat;
+            background-size: 20px;
+            padding: 1px 0 1px 25px;
+            color: #fff;
+          }
+        }
+        .mailContact {
+          display: flex;
+          margin-top: 80px;
+          margin-bottom: 20px;
+          align-items: center;
+          justify-content: center;
+          input {
+            background: #3f3f3f;
+            height: 50px;
+            padding: 20px 80px;
+            border-radius: 0;
+            outline: 0;
+            box-shadow: none;
+            appearance: none;
+          }
+          .btn {
+            display: inline-block;
+            padding: 5px 25px;
+            background: #a90534;
+            border: 1px solid transparent;
+            font-family: gilroy, arial, sans-serif;
+            font-size: 14px;
+            color: #fff;
+            font-weight: 500;
+            line-height: 38px;
+            letter-spacing: 0.1px;
+            transition: all 0.32s ease;
+            outline: 0;
+            cursor: pointer;
+            &:hover{
+                background: #ffab00;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1056px){
+  .footer{
+    width: 100%;
+    .contanier{
+      .row{
+        .footerContent{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 15px;
+        }
+        .mailContact{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:356px) {
+  .footer{
+    .contanier{
+      .row{
+        .contact{
+          width: 100%;
+          .socialMedia{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .icon{
+              width: 50px;
+            }
+          }
+          .mailContact{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  
+}
+
+

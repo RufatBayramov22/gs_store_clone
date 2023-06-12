@@ -1,0 +1,54 @@
+// home section
+
+.home {
+  max-width: 100%;
+  .contanier {
+    width: 100%;
+    .row {
+      flex-direction: column;
+      flex-wrap: wrap;
+      .slider {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        .textSlider {
+          text-align: center;
+          background-color: #a90534;
+          font-size: 20px;
+          color: #fff;
+          padding: 15px;
+          font-family: gilroy, arial, sans-serif;
+          font-weight: 500;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+
+
+//media responsib
+//home
+@media  screen and (max-width:1056px) {
+  .home{
+    width: 100%;
+    display: none;
+    .contanier{
+      .row{
+        .slider{
+          width: 100%;
+          .mySwiper{
+           
+            .textSlider{
+              width: 100%;
+              background-color: #A90534;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//flexcards

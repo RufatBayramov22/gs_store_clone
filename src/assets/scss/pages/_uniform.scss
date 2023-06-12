@@ -1,0 +1,203 @@
+.uniforms {
+    width: 100%;
+    .contanier {
+      width: 100%;
+      .row {
+        flex-direction: column;
+        .designUniform {
+          width: 100%;
+          min-height: 550px;
+          background-image: url(../../images/Uniforms/bg.webp);
+          background-size: contain;
+          padding: 60px 100px;
+          margin-top: 50px;
+          .uniformSteps {
+            display: flex;
+            justify-content: space-between;
+            .uniformTitle {
+              display: flex;
+              flex-direction: column;
+              margin-bottom: 20px;
+              .text {
+                width: 70%;
+                display: inline-block;
+                color: #fff;
+                font-size: 24px;
+                font-weight: 500;
+                font-family: gilroy, arial, sans-serif;
+              }
+              .title {
+                color: #fff;
+                margin-top: 15px;
+                font-family: gilroy, arial, sans-serif;
+                .otherTitle {
+                  color: #fcb813;
+                }
+              }
+            }
+            .uniformIcon {
+              display: flex;
+  
+              gap: 15px;
+              a {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+                font-size: 12px;
+                line-height: 1.3;
+                font-weight: 500;
+                font-family: gilroy, arial, sans-serif;
+                .icon {
+                  font-size: 46px;
+                  padding: 12px;
+                  border: 1px solid #393b3f;
+                  border-radius: 100%;
+                  margin-bottom: 9px;
+                  transition: all 0.25s ease;
+                  cursor: pointer;
+                  color: #fff;
+                  vertical-align: middle;
+                }
+                .uniform {
+                  background-color: #fcb813;
+                }
+              }
+            }
+          }
+          .uniform {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+  
+            .homeUniform {
+              width: 20%;
+              a {
+                text-align: center;
+                color: #fff;
+                display: flex;
+                flex-direction: column;
+                img {
+                  border: 1px solid #242527;
+                  padding: 15px;
+                  margin-bottom: 10px;
+                  font-family: gilroy, arial, sans-serif;
+                  font-weight: 600;
+                  transition: border-color 0.32s ease;
+                  max-width: 100%;
+                }
+              }
+            }
+          }
+          .uniformButton {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+            .after {
+              font-family: gilroy, arial, sans-serif;
+              font-size: 14px;
+              font-weight: 500;
+              line-height: 38px;
+              letter-spacing: 0.1px;
+              cursor: pointer;
+              padding: 0 25px;
+              background: transparent;
+              color: #fff;
+              border: 1px solid #fff;
+            }
+            .before {
+              font-family: gilroy, arial, sans-serif;
+              font-size: 14px;
+              font-weight: 500;
+              line-height: 38px;
+              letter-spacing: 0.1px;
+              cursor: pointer;
+              padding: 0 25px;
+              background: #a90534;
+              color: #fff;
+              border: 1px solid transparent;
+              &:hover {
+                background: #fcb813;
+                transition: 0.3s all ease-in-out;
+              }
+            }
+          }
+        }
+        .gala {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 1em;
+          height: 100%;
+          flex-grow: 1;
+          margin-top: 20px;
+          .steps {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 8px;
+            margin-top: 40px;
+            .line {
+              background-color: #ffab00;
+              height: 0.25em;
+              width: auto;
+              flex-grow: 1;
+              border-radius: 0.25em;
+            }
+          }
+          .galaTitle {
+            .title {
+              color: #a90534;
+              font-size: 2em;
+              font-weight: 500;
+              line-height: 2em;
+              letter-spacing: 0em;
+              text-align: center;
+            }
+          }
+          .galaBtns {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2em;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            flex-grow: 1;
+            width: 100%;
+            .galaBtn {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-grow: 1;
+              width: auto;
+              height: 100%;
+              color: white;
+              background: linear-gradient(180deg, #a90534 0%, #a90534 100%);
+              border-radius: 1em;
+              padding: 2em;
+              border: none;
+              cursor: pointer;
+              font-weight: 700;
+              line-height: 1em;
+              letter-spacing: 0em;
+              text-align: center;
+              transition:  0.4s cubic-bezier(0.72, 0.31, 0.03, 1); 
+              &:hover {
+                background: #fcb813;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media  screen and (max-width:956px) {
+    .uniforms{
+      display: none;
+    }
+  }

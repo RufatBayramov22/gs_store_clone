@@ -1,0 +1,44 @@
+.sliderImg {
+    width: 100%;
+    margin-top: 20px;
+    
+    .contanier {
+      width: 100%;
+      .row {
+        flex-direction: column;
+        flex-wrap: wrap;
+        .sliderBanner {
+          width: 100%;
+          a {
+            img {
+              width: 100%;
+            }
+          }
+        }
+        .sensizOlmaz {
+          width: 100%;
+          margin-top: 60px;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  
+@media screen and (max-width:1056px) {
+
+  .sliderImg{
+    width: 100%;
+    .contanier{
+      .row{
+        .sliderBanner{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+//sliderImg

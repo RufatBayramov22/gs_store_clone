@@ -1,0 +1,83 @@
+.products {
+    width: 100%;
+    .contanier {
+      .row {
+        flex-direction: column;
+        h2 {
+          height: 37px;
+          border-width: 0;
+          border-style: solid;
+          border-color: #000 #000 #c5c5c5;
+          margin: 10px 0;
+          padding: 5px 10px 10px;
+          position: relative;
+          left: 0;
+          transform: translateZ(0);
+          color: #000;
+          font-size: 24px;
+          text-align: left;
+          font-weight: 600;
+          background-color: transparent;
+        }
+        .sweetProduct {
+          width: 100%;
+          border: 1px solid #efefef;
+          .productImg {
+            width: 100%;
+            img {
+              width: 100%;
+            }
+          }
+          .productDetail {
+            display: flex;
+            flex-direction: column;
+            p {
+              text-align: center;
+              font-size: 16px;
+              color: #000;
+              margin: 10px auto;
+              height: 38px;
+              overflow: hidden;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              font-weight: 500;
+              line-height: 1.3;
+              font-family: gilroy, arial, sans-serif;
+            }
+            .priceDetails {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              margin: 0 10px;
+              .lastPrice {
+                font-size: 16px;
+                text-decoration: line-through;
+                font-weight: 400;
+              }
+              .newPrice {
+                color: #a90534;
+                margin-left: 12px;
+                font-weight: 400;
+                font-size: 16px;
+              }
+            }
+            .btn {
+              margin: 0.5rem;
+              text-align: center;
+              padding: 0.5rem;
+              border: 1px solid #262626;
+              background-color: #262626;
+              color: white;
+              transition: all 0.5s ease-in-out;
+              &:hover {
+                background-color: white;
+                color: #262626;
+                border: 1px solid #262626;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

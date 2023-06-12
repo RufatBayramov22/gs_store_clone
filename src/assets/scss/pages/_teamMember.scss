@@ -1,0 +1,20 @@
+.teamMembers {
+    width: 100%;
+    margin-top: 50px;
+    .contanier {
+      .row {
+        flex-direction: column;
+        h2 {
+          font-size: 24px;
+          margin-bottom: 20px;
+          font-weight: 600;
+        }
+        .teamSlider {
+          width: 100%;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }

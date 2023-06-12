@@ -1,0 +1,175 @@
+.men {
+  width: 100%;
+  .contanier {
+    width: 100%;
+    .row {
+      .menSection {
+        display: flex;
+
+        .menNavigate {
+          position: absolute;
+          left: 7%;
+          margin-top: 18px;
+          z-index: 2;
+          display: flex;
+          gap: 5px;
+          a {
+            line-height: 1.7;
+            font-family: aktiv-grotesk, arial, sans-serif;
+            font-size: 12px;
+            font-weight: 300;
+            color: inherit;
+          }
+        }
+        .menImg {
+          position: relative;
+          width: 100%;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.manCategory {
+  width: 100%;
+  .contanier {
+    .row {
+      .category {
+        margin-left: 5%;
+        width: 30%;
+        margin-top: 5%;
+        h4 {
+          display: inline-block;
+          font-family: aktiv-grotesk, arial, sans-serif;
+          font-size: 16px;
+          padding: 7px 10px;
+          letter-spacing: 0.3px;
+          text-transform: uppercase;
+          font-weight: 500;
+        }
+        .categoryList {
+          display: flex;
+          flex-direction: column;
+          margin-left: 10px;
+
+          .categoryItem {
+            a {
+              display: inline-block;
+              font-family: aktiv-grotesk, arial, sans-serif;
+              font-size: 13px;
+              padding: 7px 10px;
+              letter-spacing: 0.3px;
+              color: black;
+            }
+          }
+        }
+      }
+      .products {
+        
+        margin-top: 4% !important;
+        .productDetails {
+          position: relative;
+          font-weight: 400;
+          width: 100% !important;
+          .productDetail {
+            font-weight: 400;
+            border: 1px solid #f3f3f3;
+
+            .productImg {
+              display: flex;
+              flex-direction: column;
+              .heart {
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                padding: 0;
+                right: 0;
+                top: 5px;
+                color: #a90534;
+                font-family: gilroy, arial, sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 38px;
+                letter-spacing: 0.1px;
+                transition: all 0.32s ease;
+                outline: 0;
+                margin-right: 5px;
+                border: none;
+                cursor: pointer;
+                &:hover{
+                fill: #a90534;
+                transition: 0.5s ease-in-out;
+                }
+              }
+              img {
+                width: 100%;
+              }
+            }
+            .productTitle {
+              display: flex;
+              flex-direction: column;
+              margin-left: 10px;
+              span {
+                font-family: aktiv-grotesk, arial, sans-serif;
+                font-size: 12px;
+                color: #666;
+                font-weight: 300;
+                margin-bottom: 10px;
+              }
+              a {
+                font-size: 14px;
+                color: #000;
+                line-height: 1.3;
+                min-height: 37px;
+                max-height: 37px;
+              }
+              p{
+                color: black;
+              }
+            }
+            .productSale {
+              margin-left: 10px;
+              padding: 10px 0;
+              .sale {
+                color: #a90534;
+                font-size: 14px;
+              }
+            }
+            .productPrice {
+              display: flex;
+              gap: 10px;
+              margin-left: 10px;
+
+              .oldPrice {
+                text-decoration: line-through;
+                font-family: gilroy, arial, sans-serif;
+                font-size: 14px;
+                color: #000;
+                font-weight: 400;
+                line-height: 1.3;
+              }
+              .newPrice {
+                color: #a90534;
+                font-weight: 400;
+                font-size: 14px;
+              }
+            }
+            .kazanc {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-left: 10px;
+              span {
+                color: rgb(230, 13, 74);
+               
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

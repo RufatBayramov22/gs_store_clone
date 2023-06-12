@@ -1,0 +1,53 @@
+.flexCards {
+    width: 100%;
+    .contanier {
+      width: 100%;
+      .row {
+        .about {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          gap: 30px;
+          .aboutCards {
+            a {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+              text-align: center;
+              margin-top: 5px;
+              color: #000;
+              font-family: gilroy, arial, sans-serif;
+              font-size: 14px;
+              font-weight: 500;
+              line-height: 1.3;
+              img {
+                width: 85px;
+                padding: 3px;
+                max-width: none;
+                border: solid 2px #fcb813;
+                border-radius: 50%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width:1056px) {
+    .flexCards{
+      width: 100%;
+      padding: 50px;
+      display: none;
+      .contanier{
+        .row{
+          .about{
+            width: 100%;
+            img{
+              width: 55px;
+            }
+          }
+        }
+      }
+    }
+  }
