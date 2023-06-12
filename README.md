@@ -37,6 +37,4 @@ Bu proje, sadece eğitim amaçlı olup, açık kaynak bir projedir. Herhangi bir
 
 ## Lisans
 
-Bu proje
-
-, Galatasaray Store'un telif hakkına tabidir. Bu nedenle, projeyi kullanırken ve dağıtırken Galatasaray Store'un kullanım koşullarını göz önünde bulundurun.
+Bu proje, Galatasaray Store'un telif hakkına tabidir. Bu nedenle, projeyi kullanırken ve dağıtırken Galatasaray Store'un kullanım koşullarını göz önünde bulundurun.
